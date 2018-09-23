@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Animation Techniques</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+  </head>
+  <body>
+    <main>
+      <div class="altred">
+        <h1> <strong> Animation Techniques Throughout History </strong> </h1>
+      </div>
+      <div id="navbar" class="altred">
+        <!--nav bar here-->
+        <a href="/"> Early Animation </a>
+        <br>
+        <br>
+        <a href="/hand-anim"> Hand-Drawn </a>
+        <br>
+        <br>
+        <a href="/stopmotion"> Stop Motion </a>
+        <br>
+        <br>
+        <a href="/3d"> 3D Animation </a>
+        <br>
+        <br>
+        <a href="/future"> Future Animation </a>
+      </div>
+
+      {% block content %}
+      {% endblock %}
+
+
+      <div class="altblue3">
+        <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/12799313_10154025003209883_2481051224446721139_n.jpg?_nc_cat=0&oh=cad849b2dcb58c1d6b8b28ff1e616153&oe=5C34B971" width=300 height=300>
+        <p>
+          Jeff Morice, Artist and Animator
+          <br><br>
+          He plans to learn C# to develop animated VR experiences.
+          <br>
+          That may change. People say there are more JS jobs.
+        </p>
+      </div>
+    </main>
+  </body>
+  <footer>
+    &copy Jeff Morice
+  </footer>
+</html>

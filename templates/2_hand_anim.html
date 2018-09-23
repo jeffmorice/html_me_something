@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <article>
+          <div class="altblue2">
+            <h2>
+              Hand-drawn Animation
+            </h2>
+            <h4>
+              Inception - 1890s
+            </h4>
+            <p>
+              Hand-drawn animation consists of individual drawings or frames, which when played back one after another give the illusion of motion. Modern filmmaking in America uses the 24 frame per second standard.
+            </p>
+            <p>
+              Doing one drawing for all 24 frames is called drawing on “Ones”. This process can quickly become time consuming and costly. 2D animators often seek ways to reduce the number of required drawings, including drawing on “twos,” or one new drawing every two frames. Clever animators can mix ones, twos, threes, and fours to effectively create the illusion of motion.
+            </p>
+            <div class="altblue3">
+              <h4>
+                Advancements
+              </h4>
+              <ul>
+                <li> Disney, patented multiplane camera</li>
+                <li>1980s and 90s digital ink and paint</li>
+                <li>digital compositing</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/multipl-3aa.jpg') }}">
+            </div>
+            <div class="altblue2">
+              <h4>
+                Stand-Out Examples
+              </h4>
+              <ul>
+                <li>First hand-drawn animated feature, Snow White and the Seven Dwarves, Disney, 1937</li>
+                <li>Gertie the Dinosaur</li>
+                <li>Fleischer Brothers, early 3D integration</li>
+                <li>Akira</li>
+                <li>Spirited Away</li>
+                <li>Persepolis</li>
+                <li>Ghost in the Shell</li>
+                <img src="{{ url_for('static', filename='images/this_is_theWinsorMcCayGertietheDinosaurweb_original.jpg') }}">
+              </ul>
+            </div>
+            <div class="altblue3">
+              <h4>
+                Subsets
+              </h4>
+              <ul>
+                <li>Paint on Glass</li>
+                <li>Rotoscoping</li>
+                <li>Digital Hand-Drawn</li>
+                <li>Pixel animation</li>
+                <img src="{{ url_for('static', filename='images/aleksandr.jpg') }}">
+              </ul>
+            </div>
+          </div>
+        </article>
+{% endblock %}

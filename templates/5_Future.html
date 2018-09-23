@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <article>
+          <div class="altblue2">
+            <h2>
+              Future Animation
+            </h2>
+            <p>
+              The future of animation is vast and full of potential. The wonderful fact of animation is that techniques, though based heavily in technology, never become obsolete.
+              <br><br>
+              In Japan, animators continue to innovate and incorporate new technology into the 2D Hand-Drawn animation process. In Portland, Oregon, Laika is doing the same with Stop Motion, thought by some to have been replaced by 3D animation. The recent proliferation of consumer VR hardware has opened up a new venue for 3D animation to grow within.
+              <br><br>
+              In the future, I personally hope to see new advancements and new creative works in each discipline from artists, engineers, and programmers across the world.
+            </p>
+            <div class="altblue3">
+              <h4>
+                Examples
+              </h4>
+              <ul>
+                <li> Virtual Reality experiences for games, narrative, and enterprise</li>
+                <li> Digital assisted techniques</li>
+                <li> Code-driven animation</li>
+                <li> Procedural animation</li>
+                <li> Greater variety of techniques</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/CosmicLaundromat.jpg') }}">
+              <img src="{{ url_for('static', filename='images/Pearl_Patrick_Osborne_3.0.0.jpg') }}">
+            </div>
+          </div>
+        </article>
+{% endblock %}

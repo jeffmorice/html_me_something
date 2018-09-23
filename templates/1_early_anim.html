@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <article>
+          <div class="altblue2">
+            <h2>
+              Early Animation
+            </h2>
+            <p>
+              Early animation techniques sought to exploit Persistence of Vision, the human ability to perceive a sequence of images in rapid succession as continuous motion. This time in animation history is marked by the race to patent machines for capture and playback of motion. It is naturally entwined with the inception of film.
+            </p>
+            <div class="altblue3">
+              <h4>
+                Advancements
+              </h4>
+              <ul>
+                <li> Persistence of Vision </li>
+                <li> Photography </li>
+                <li> Edweard Muybridge's photographic studies of motion, 1872-1884 </li>
+                <li> Projectors </li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/jockey-on-a-galloping-horse-eadweard-muybridge.jpg') }}">
+            </div>
+            <div class="altblue2">
+              <h4>
+                Examples
+              </h4>
+              <ul>
+                <li> Thaumatrope, 1825 </li>
+                <li> Phénakisticope, 1833 </li>
+                <li> Zoetrope, 1866 </li>
+                <li> Flip book, 1868 </li>
+                <li> Praxinoscope, 1877 </li>
+                <li> Zoopraxiscope, 1879 </li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/flipbook-animation.jpg') }}">
+            </div>
+          </div>
+        </article>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <article>
+          <div class="altblue2">
+            <h2>
+              Stop Motion Animation
+            </h2>
+            <h4>
+              Inception - 1890s
+            </h4>
+            <p>
+              Subjects in stop motion are physical objects moved between every camera exposure. Objects may be armatured with wire or machined metal skeletons, or un-armatured. Stop motion is considerably more ephemeral than other forms of animation because iterative takes require starting over at the beginning of a shot.
+            </p>
+            <div class="altblue3">
+              <h4>
+                Advancements
+              </h4>
+              <ul>
+                <li> Machined armatures</li>
+                <li> Live preview software</li>
+                <li> 3D printed replacement animation</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/animation_supplies_standard_armature_3_7_10.jpg') }}">
+            </div>
+            <div class="altblue2">
+              <h4>
+                Stand-Out Examples
+              </h4>
+              <ul>
+                <li> First feature-length animated film, The Adventures of Prince Achmed, by German filmmaker Lotte Reiniger, 1926</li>
+                <li> Camera Man’s Revenge</li>
+                <li> King Kong and the films of Ray Harryhausen</li>
+                <li> Coraline, by Laika Studios, currently reinventing the form</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/Prince-Achmed.jpg') }}">
+            </div>
+            <div class="altblue3">
+              <h4>
+                Subsets
+              </h4>
+              <ul>
+                <li> Pixelation</li>
+                <li> Sand animation</li>
+                <li> Shadow puppets</li>
+                <li> Claymation</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/wallaceandgromit_2404081k.jpg') }}">
+            </div>
+          </div>
+        </article>
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <article>
+          <div class="altblue2">
+            <h2>
+              3D Computer Animation
+            </h2>
+            <h4>
+              Inception - 1970s
+            </h4>
+            <p>
+              3D computer animation is an outgrowth of early vector graphics. Every 3D animated image is made up of basic 3D geometry: points, lines, and planes or vertices, edges, and faces. These geometric parts form what is called a mesh. Meshes can be deformed, much like armatured stop motion figures, with virtual “bones.” A section of a mesh can be assigned to a bone using a weighted parent-child relationship. Thousands of techniques have followed this basic foundation to apply shading, decoration, complex movement, styling to these basic building blocks.
+            </p>
+            <p>
+              Nomenclature around 3D animation has been somewhat damaging to the social understanding around the agency of artists in its creation. While insiders appreciate the many labor intensive processes involved, the term “CGI” or “Computer Generated Imagery” can deceptively transfer the creative agency to the computer. There are some who hear the term “CGI” and write off the images they see as automatic, something cheap and easy, arising from out of a computer without human input. In the same sense, the programmer who enables the artist to create is also unsung.
+            </p>
+            <div class="altblue3">
+              <h4>
+                Advancements
+              </h4>
+              <ul>
+                <li> 1972, Ed Catmull recreates his hand using 3D graphics</li>
+                <li> Texture mapping</li>
+                <li> Ray tracing</li>
+                <li> 2002, Blender released as a free, open sourced alternative to cost-prohibitive 3D production software, allowing independent creators with capable hardware to learn and create 3D animation</li>
+                <li> Realtime rendering</li>
+                <li> Motion capture</li>
+                <li> Free 3D game engines</li>
+                <li> Steadily growing, shared libraries of shaders</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/Futureworld-02.jpg') }}">
+            </div>
+            <div class="altblue2">
+              <h4>
+                Stand-Out Examples
+              </h4>
+              <ul>
+                <li> Wolfenstein 3D, first 3D video game, 1992</li>
+                <li> Toy Story, by Pixar, first 3D animated feature film, 1995</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/Buzz_Lightyear.png') }}">
+            </div>
+            <div class="altblue3">
+              <h4>
+                Subsets
+              </h4>
+              <ul>
+                <li> 3D video game animation</li>
+                <li> 3D VFX</li>
+              </ul>
+              <img src="{{ url_for('static', filename='images/GTA3.png') }}">
+            </div>
+          </div>
+        </article>
+{% endblock %}
